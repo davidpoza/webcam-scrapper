@@ -119,6 +119,9 @@ async function runJob() {
       console.log(`❌ Download error: ${webcam.endpoint} - ${Error}`);
     }
   }
+  process.exit();
 }
 
-runJob();
+(async () => {
+  await runJob();
+})()
