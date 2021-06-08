@@ -63,8 +63,48 @@ const webcams = [
   {
     name: 'venta-marcelino-1',
     endpoint: 'https://www.ventamarcelino.com/webcam_1.jpg',
-
+  },
+  {
+    name: 'venta-marcelino-2',
+    endpoint: 'https://www.ventamarcelino.com/webcam_2.jpg',
+  },
+  {
+    name: 'venta-marcelino-3',
+    endpoint: 'https://infocar.dgt.es/etraffic/data/camaras/161042.jpg',
+  },
+  {
+    name: 'venta-marcelino-4',
+    endpoint: 'https://ventamarcelino.com/meteo/foto.jpg',
+  },
+  {
+    name: 'refugio-poqueira-1',
+    endpoint: 'http://37.130.145.254:8080/cgi-bin/faststream.jpg?fps=1&date=1',
+  },
+  {
+    name: 'refugio-poqueira-2',
+    endpoint: 'http://37.130.145.254:8081/cgi-bin/image.jpg?camera=right&customsize=640x480&date=1&rotate=90;date=1',
+  },
+  {
+    name: 'refugio-poqueira-3',
+    endpoint: 'http://37.130.145.254:8081/cgi-bin/image.jpg?camera=left&customsize=640x480&date=1&rotate=180;date=1',
+  },
+  {
+    name: 'refugio-poqueira-4',
+    endpoint: 'http://37.130.145.254:8084/cgi-bin/view/image?pro_1',
+  },
+  {
+    name: 'sierra-nevada-borreguiles',
+    endpoint: 'http://wtvhspt.feratel.com/hotspot/35/15111/1.jpeg?&ap=1&design=v3',
+  },
+  {
+    name: 'navacerrada-1',
+    endpoint: 'https://puertonavacerrada.com/webcam/WEBcamPala.jpg',
+  },
+  {
+    name: 'navacerrada-1',
+    endpoint: 'https://infocar.dgt.es/etraffic/data/camaras/163996.jpg',
   }
+
 ];
 
 async function runJob() {
