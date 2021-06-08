@@ -1,0 +1,21 @@
+{
+  "name": "webcam-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-davidpoza:davidpoza/webcam-scrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "basic-ftp": "^4.6.6",
+    "dayjs": "^1.10.5",
+    "dotenv": "^10.0.0"
+  }
+}
