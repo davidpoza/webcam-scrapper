@@ -101,7 +101,7 @@ const webcams = [
     endpoint: 'https://puertonavacerrada.com/webcam/WEBcamPala.jpg',
   },
   {
-    name: 'navacerrada-1',
+    name: 'navacerrada-2',
     endpoint: 'https://infocar.dgt.es/etraffic/data/camaras/163996.jpg',
   }
 
