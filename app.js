@@ -40,7 +40,7 @@ function ensureDirectoryExists(dir) {
 }
 
 async function downloadImage (url, localPath) {
-  const datetime = dayJs().format('YYYYMMDD_hhmmss');
+  const datetime = dayJs().format('YYYYMMDD_HHmmss');
   ensureDirectoryExists(localPath);
   const path = Path.resolve(localPath, `${datetime}.jpg`);
   const writer = Fs.createWriteStream(path);
